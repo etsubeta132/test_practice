@@ -15,7 +15,7 @@ class TestShopingCart:
         total = cart.getCartTotal()
         return total == 2
 
+# test class ......
 test = TestShopingCart()
 print(test.test_getChart())
 print(test.test_getCartTotal_with_products())
-# try
