@@ -1,0 +1,16 @@
+name: CI/CD Exersice
+
+on:
+  push:
+    branches:
+        -main
+jobs:
+  pyhton:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/chekcout@v4
+      - uses: actions/stepup--python@v3
+      - with: pyhtonversion:  '3.x'
+      - run: python --version
+      
