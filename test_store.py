@@ -18,3 +18,4 @@ class TestShopingCart:
 test = TestShopingCart()
 print(test.test_getChart())
 print(test.test_getCartTotal_with_products())
+# try
