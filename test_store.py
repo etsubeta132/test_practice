@@ -17,5 +17,7 @@ class TestShopingCart:
 
 # test class ......
 test = TestShopingCart()
-print(test.test_getChart())
-print(test.test_getCartTotal_with_products())
+if test.test_getChart() and test.test_getCartTotal_with_products():
+    print(True)
+else:
+    print(False)
